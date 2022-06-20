@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+
+.navbar-nav .nav-item a{
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+}
+.navbar-nav .nav-item a:active{
+    color: #3498db !important;
+    
+}
+.navbar-nav .nav-item a:hover{
+    color: #3498db !important;
+    border-bottom: 3px solid #3498db;
+
+}
+span{
+    color: #3498db;
+}
+
+
+
+/*  hero-section-bg */
+.hero-section-bg{
+    background-image: url("../img/blob.png");
+    background-repeat: no-repeat;
+    /* background-position: right ; */
+}
+
+.services-card img{
+    height: 60px;
+    width: 60px;
+    background-color: #3498db;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.services-card .card{
+    position: relative;
+   
+}
+.services-card .card img{
+    position: absolute;
+    top: -27px;
+    left: 46%;
+}
+
+.downloadBg{
+    background-image: url(../img/dan-lefebvre-RFAHj4tI37Y-unsplash.jpg),linear-gradient(to right, #6DB3F2, #6DB3F2) !important;
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    
+}
